@@ -1,0 +1,105 @@
+.top {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../assets/dl.beatsnoop.com-3000-JCkSirNhGP.jpg) no-repeat center center/cover;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+
+.carousel-item {
+    position: relative;
+    height: 100vh;
+
+}
+
+.carousel-content {
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(20px);
+    color: white;
+    text-align: center;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.carousel-content.visible {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0);
+}
+
+/* img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+} */
+.top {
+    height: 50vh;
+
+}
+
+.about-col:hover .icon {
+    text-align: center;
+
+    position: relative;
+    z-index: 999;
+    font-size: 36px;
+    background-color:  var(--haccent);
+    border: 4px solid #f1f1f1;
+    border-radius: 50%;
+    color: white;
+    margin: -20px auto 14px;
+    cursor: pointer;
+}
+
+.about-col .icon {
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    position: relative;
+    z-index: 999;
+    font-size: 36px;
+    color:  var(--haccent);
+    border: 4px solid  var(--haccent);
+    border-radius: 50%;
+    background: white;
+    margin: -20px auto 14px;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    color: var(--haccent);
+}
+
+.about-col {
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    min-height: 545px;}
+    /* 
+
+
+.icon{
+    margin: auto;
+    padding: 20px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    background-color: var(--haccent);
+    width: fit-content;
+} */
+.line-with-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 5px;
+    background-color:var(--haccent);
+    margin: 0 10px;
+  }
+  
+  .text {
+    white-space:nowrap;   
+      
+  }

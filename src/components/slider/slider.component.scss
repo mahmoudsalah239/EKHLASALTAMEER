@@ -1,0 +1,43 @@
+
+.carousel-item {
+  position: relative;
+  height: 70vh; /* ضبط ارتفاع العنصر ليشغل الشاشة بأكملها */
+  display: flex;
+  justify-content: center; /* توسيط أفقي للمحتوى */
+  align-items: center; /* توسيط عمودي للمحتوى */
+}
+
+.carousel-content {
+  position: relative; /* تغيير من absolute إلى relative */
+  color: black;
+  background: rgba(255, 255, 255, 0.5); /* خلفية شفافة لتسهيل قراءة النص */
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%; /* تعديل العرض حسب الحاجة */
+  max-width: 600px; /* لتحديد العرض الأقصى للنص */
+  text-align: center; /* تأكيد التوسيط النصي */
+}
+
+img.w-100 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* تغطية العنصر الأم */
+  object-fit: cover; /* لتغطية العنصر بالكامل دون فقدان نسب */
+}
+
+.carousel-item {
+  position: relative;
+}
+
+
+.btn{
+  background-color: var(--haccent);
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.btn:hover{
+  background-color: var(--lcolor);
+}
