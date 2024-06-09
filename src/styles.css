@@ -55,12 +55,12 @@
 }
 
 
-    :root {
-        --txtaccent: #fff;
-        --txtaccent1: #9D9D9F;
-        --textaccent2: #73757E;
-        --textaccent3: #484848;
-        --txtaccent4: #000;
+:root {
+    --txtaccent: #fff;
+    --txtaccent1: #9D9D9F;
+    --textaccent2: #73757E;
+    --textaccent3: #484848;
+    --txtaccent4: #000;
     --txtaccent5: #E5E5E5;
     --haccent: #153265;
     --lcolor: #18499c;
@@ -84,5 +84,22 @@
     width: 50px;
     margin: 20px auto;
 
+
+}
+
+.line-with-text {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    flex-grow: 1;
+    height: 5px;
+    background-color: var(--haccent);
+    margin: 0 10px;
+}
+
+.text {
+    white-space: nowrap;
 
 }
