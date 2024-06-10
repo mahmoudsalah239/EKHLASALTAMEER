@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 @Component({
   selector: 'app-our-service',
   standalone: true,
@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
   templateUrl: './our-service.component.html',
   styleUrl: './our-service.component.css'
 })
-export class OurServiceComponent {
-
+export class OurServiceComponent implements OnInit {
+  ngOnInit() {
+    AOS.init();
+  }
 }
