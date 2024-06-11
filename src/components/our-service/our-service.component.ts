@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import * as AOS from 'aos';
+
 @Component({
   selector: 'app-our-service',
   standalone: true,
@@ -8,7 +9,12 @@ import * as AOS from 'aos';
   styleUrl: './our-service.component.css'
 })
 export class OurServiceComponent implements OnInit {
+
   ngOnInit() {
+
     AOS.init();
+ 
+
+
   }
 }

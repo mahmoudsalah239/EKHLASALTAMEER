@@ -13,4 +13,11 @@ templateUrl: './app.component.html',
 })
 export class AppComponent {
   title = 'EKHLASALTAMEER';
+
+  openWhatsAppChat() {
+    const phoneNumber = '+966563995123'; // استبدل هذا برقم هاتف الشركة بصيغة دولية
+    const message = 'مرحبا بك ف شركه اخلاص التعمير !'
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  }
 }

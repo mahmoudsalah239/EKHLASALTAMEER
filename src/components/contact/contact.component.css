@@ -27,3 +27,14 @@ textarea {
     transition: all .2s linear;
     width: 100%;
 }
+.btn{
+    background-color: var(--haccent);
+    color: #ffffff;
+    border: none;
+    outline: none;
+
+}
+.btn:hover{
+        background-color: var(--lcolor);
+
+}

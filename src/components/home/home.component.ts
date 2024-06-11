@@ -5,7 +5,6 @@ import { FooterComponent } from '../footer/footer.component';
 // import AOS from 'aos';
 import { CounterComponent } from '../counter/counter.component';
 import { CategoriesComponent } from '../categories/categories.component';
-import { BackToTopComponent } from '../back-to-top/back-to-top.component';
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -14,7 +13,7 @@ import { BackToTopComponent } from '../back-to-top/back-to-top.component';
     AboutComponent,
     FooterComponent,
     CounterComponent,
-    CategoriesComponent,BackToTopComponent
+    CategoriesComponent
   ],
 
   templateUrl: './home.component.html',

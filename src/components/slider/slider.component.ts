@@ -14,7 +14,6 @@ export class SliderComponent implements OnInit, AfterViewChecked {
   ngOnInit() {
     AOS.init({
       duration: 1200, // مدة الأنيميشن
-      once: true, // تشغيل الأنيميشن مرة واحدة فقط عند التمرير
     });
   }
   ngAfterViewChecked(): void {
