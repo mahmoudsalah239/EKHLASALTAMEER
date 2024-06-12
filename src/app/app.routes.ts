@@ -29,7 +29,7 @@ export const routes: Routes = [
     loadComponent: () => import('../components/our-service/our-service.component').then(m => m.OurServiceComponent)
   },
   {
-    path: 'decorate',
+    path: 'Decorate',
     loadComponent: () => import('../components/decorate/decorate.component').then(m => m.DecorateComponent)
   },
   { path: '**', redirectTo: 'home' }

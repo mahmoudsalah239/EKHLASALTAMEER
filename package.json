@@ -26,6 +26,7 @@
     "jquery": "^3.7.1",
     "ngx-count-animation": "^1.1.1",
     "ngx-countup": "^13.1.0",
+    "ngx-gallery": "^5.10.0",
     "ngx-typed-js": "^2.1.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
