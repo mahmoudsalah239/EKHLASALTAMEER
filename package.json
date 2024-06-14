@@ -28,6 +28,7 @@
     "ngx-countup": "^13.1.0",
     "ngx-gallery": "^5.10.0",
     "ngx-typed-js": "^2.1.1",
+    "ngx-typed-writer": "^1.3.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "typewriterjs": "^1.0.0",
