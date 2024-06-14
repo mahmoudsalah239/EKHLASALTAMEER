@@ -1,6 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
+
+
 import * as AOS from 'aos';
 
 @Component({
@@ -11,6 +13,11 @@ import * as AOS from 'aos';
   styleUrl: './slider.component.scss',
 })
 export class SliderComponent implements OnInit, AfterViewChecked {
+  strings: string[] = ['Welcome to our website!', 'Enjoy your stay.', 'Feel free to explore.'];
+  typeSpeed: number = 50;
+  backSpeed: number = 50;
+  backDelay: number = 1000;
+  loop: boolean = true;
   ngOnInit() {
     AOS.init({
       duration: 1200, // مدة الأنيميشن
